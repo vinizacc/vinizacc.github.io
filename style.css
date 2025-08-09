@@ -37,7 +37,7 @@ button {
     font-size: 18px;
     cursor: pointer;
     border: none;
-    background: #2d89ef;
+    background: #13eac6;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -65,4 +65,5 @@ button {
         flex: 1;
     }
 }
+
 
