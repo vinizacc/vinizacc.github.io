@@ -16,7 +16,7 @@ html, body {
 textarea {
     flex: 1;
     width: 100%;
-    font-size: 28px;
+    font-size: 64px;
     padding: 10px;
     border: none;
     outline: none;
@@ -65,3 +65,4 @@ button {
         flex: 1;
     }
 }
+
