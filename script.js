@@ -1,4 +1,4 @@
-let tamanhoFonte = 28;
+let tamanhoFonte = 64;
 const caixaTexto = document.getElementById('caixaTexto');
 
 document.getElementById('aumentar').addEventListener('click', () => {
@@ -12,3 +12,4 @@ document.getElementById('diminuir').addEventListener('click', () => {
         caixaTexto.style.fontSize = tamanhoFonte + 'px';
     }
 });
+
