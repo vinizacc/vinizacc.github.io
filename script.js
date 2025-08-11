@@ -17,10 +17,11 @@ let lastTouch = 0;
 
 document.addEventListener("touchend", function (event) {
     const now = new Date().getTime();
-    if (now - lastTouch <= 500) { // intervalo mínimo de 500ms
+    if (now - lastTouch <= 300) { // intervalo mínimo de 500ms
         event.preventDefault();
     }
     lastTouch = now;
 }, { passive: false });
+
 
 
